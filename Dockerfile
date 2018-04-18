@@ -3,6 +3,7 @@ FROM alpine
 RUN apk add --no-cache \
 	curl \
 	wget \
-	bind-tools
+	bind-tools \
+	ca-certificates
 
 USER nobody
