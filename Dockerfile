@@ -6,4 +6,5 @@ RUN apk add --no-cache \
 	bind-tools \
 	ca-certificates \
 	busybox-extras \
-	tcpdump
+	tcpdump \
+	netcat-openbsd
